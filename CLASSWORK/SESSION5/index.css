@@ -1,0 +1,52 @@
+*{
+  font-size: 30px;
+  font-family: tahoma;
+}
+h1{
+  color: brown;
+}
+
+p{
+  color:green
+}
+
+.one{
+  width: 500px;
+  min-height: 400px;
+  color: purple;
+  border: 2px solid #000;
+}
+
+.one::first-letter{
+
+  font-size: 100px;
+  color: tomato;
+}
+
+.one:hover{
+  color: brown;
+  transform: scale(1.5);
+  transition:all 2s;
+}
+
+
+.two{
+  color: black;
+}
+
+#one{
+  color: purple;
+  font-size: 20px;
+}
+
+a:link{
+  color: red;
+}
+
+a:visited{
+  color:teal;
+}
+
+a:focus{
+  color: black;
+}
