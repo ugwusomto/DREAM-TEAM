@@ -1,0 +1,92 @@
+*{
+  box-sizing: border-box;
+  margin: 0px;
+  padding: 0px;
+}
+
+.container{
+  width: 60%;
+  min-height: 500px;
+  border: 2px solid #000;
+  margin: 20px auto;
+  padding: 10px;
+}
+
+.container .header{
+  width: 100%;
+  min-height: 80px;
+  border: 2px solid #000;
+  padding: 10px;
+  text-align: center;
+
+}
+
+.container .header .logo{
+  width: 30%;
+  height: 70px;
+  border: 2px solid #000;
+  text-align: center;
+  display: inline-block;
+  margin: 10px;
+  padding-top: 20px;
+}
+
+.container .header .nav{
+  width: 60%;
+  height: 70px;
+  border: 2px solid #000;
+  text-align: center;
+  display: inline-block;
+  margin: 10px;
+  padding-top: 20px;
+}
+
+/* body section */
+.container .body{
+  width: 100%;
+  min-height: 200px;
+  border: 2px solid #000;
+  padding:10px;
+  margin-top: 10px;
+  text-align: center;
+}
+
+.container .body .box{
+  width: 30%;
+  height: 200px;
+  border: 2px solid #000;
+  margin: 5px;
+  display: inline-block;
+  vertical-align: top;
+}
+
+/* info section */
+.container .info{
+  width: 100%;
+  min-height: 200px;
+  border: 2px solid #000;
+  padding:10px;
+  margin-top: 10px;
+  text-align: center;
+}
+
+.container .info .box{
+  width: 45%;
+  height: 200px;
+  border: 2px solid #000;
+  margin: 5px;
+  display: inline-block;
+  vertical-align: top;
+}
+
+/* footer section */
+.container .footer{
+  width: 100%;
+  min-height: 200px;
+  border: 2px solid #000;
+  padding:10px;
+  margin-top: 10px;
+  text-align: center;
+  padding-top: 20px;
+  font-size: 30px;
+}
