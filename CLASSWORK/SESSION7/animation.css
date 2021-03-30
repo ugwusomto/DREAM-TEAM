@@ -1,0 +1,41 @@
+*{
+  box-sizing: border-box;
+  margin:0px;
+  padding:0px;
+}
+
+.box{
+  width: 100px;
+  height: 100px;
+  border: 2px solid #000;
+  font-size: 25px;
+  text-align: center;
+  padding-top: 30px;
+  animation-name: MyAnimation;
+  position: absolute;
+  animation-duration: 10s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes MyAnimation{
+  0%{left: 0px;top: 0px;font-family: Arial;}
+  10%{top: 520px;left: 100px;font-family: cursive;}
+  20%{top: 520px;left: 400px;font-family: tahoma;}
+  40%{top: 250px;left: 450px;font-family: fantasy;}
+  50%{top:0px;left: 650px;font-family: serif;}
+  60%{top:250px;left: 950px;font-family: monospace;}
+  70%{top:450px;left: 700px;font-family: verdana;}
+  75%{top:520px;left: 1000px;font-family:"Times new roman";}
+  80%{top:0px;left: 1300px;font-family: sans-serif;}
+  90%{top:250px;left: 250px;font-family:georgia ;}
+  100%{left: 0px;top: 0px;font-family: Arial, Helvetica, sans-serif;}
+
+
+
+
+
+
+
+
+
+}
